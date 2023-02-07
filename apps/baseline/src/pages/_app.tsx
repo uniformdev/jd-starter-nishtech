@@ -4,7 +4,7 @@ import { UniformContext } from '@uniformdev/context-react';
 import { UniformAppProps } from '@uniformdev/context-next';
 import TrackersProvider from 'shared/src/components/TrackersProvider';
 import NavigationFooter from 'shared/src/components/NavigationFooter';
-import createUniformContext from '@/context/createUniformContext';
+import { createUniformContext } from '../context/createUniformContext';
 import Header from '@/components/Header';
 
 import '@/styles/globals.scss';

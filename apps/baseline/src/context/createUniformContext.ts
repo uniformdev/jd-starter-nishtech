@@ -1,24 +1,25 @@
-import { NextPageContext } from 'next';
-import getConfig from 'next/config';
-import { Context, ManifestV2, enableContextDevTools, enableDebugConsoleLogDrain } from '@uniformdev/context';
+import {
+  Context,
+  ManifestV2,
+  enableContextDevTools,
+  ContextPlugin,
+  enableDebugConsoleLogDrain,
+} from '@uniformdev/context';
 import { NextCookieTransitionDataStore } from '@uniformdev/context-next';
-import { enableGoogleGtagAnalytics } from '@uniformdev/context-gtag';
+import { NextPageContext } from 'next';
 import manifest from './manifest.json';
 
-const { googleAnalyticsId } = getConfig().publicRuntimeConfig;
+export function createUniformContext(serverContext?: NextPageContext) {
+  const plugins: ContextPlugin[] = [enableContextDevTools(), enableDebugConsoleLogDrain('debug')];
 
-// Docs: https://docs.uniform.app/guides/classification/activation#add-context-to-app
-const createUniformContext = (serverContext?: NextPageContext) => {
-  const plugins = [enableContextDevTools(), enableDebugConsoleLogDrain('debug')];
-  // Docs: https://docs.uniform.app/integrations/data/google-analytics#activate-ga-plugin
-  if (googleAnalyticsId) plugins.push(enableGoogleGtagAnalytics({ emitAll: true }));
-
-  return new Context({
+  const context = new Context({
     defaultConsent: true,
     manifest: manifest as ManifestV2,
-    transitionStore: new NextCookieTransitionDataStore({ serverContext }),
-    plugins,
+    transitionStore: new NextCookieTransitionDataStore({
+      serverContext,
+    }),
+    plugins: plugins,
   });
-};
 
-export default createUniformContext;
+  return context;
+}

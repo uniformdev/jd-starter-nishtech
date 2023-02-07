@@ -1,6 +1,6 @@
 import Document, { DocumentContext, DocumentInitialProps, Head, Html, Main, NextScript } from 'next/document';
 import { enableNextSsr } from '@uniformdev/context-next';
-import createUniformContext from '@/context/createUniformContext';
+import { createUniformContext } from '../context/createUniformContext';
 
 class MyDocument extends Document {
   // IMPORTANT: needed to enable the SSR elements
