@@ -14,7 +14,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   }
 
   try {
-    console.log('Revalidating path: ' + path);
+    console.log('!!!!!Revalidating path: ' + path);
     await res.revalidate(path);
     return res.json({ revalidated: true });
   } catch (err) {
