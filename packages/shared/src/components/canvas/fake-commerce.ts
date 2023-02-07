@@ -1,0 +1,10 @@
+import './Hero';
+import './FeaturedProducts';
+import './ProductInfo';
+import './ProductImageGallery';
+import './SectionTwoColumns';
+import './Container';
+import './AddToCart';
+import './RelatedProducts';
+import './ProductDescription';
+import './ProductCatalog';

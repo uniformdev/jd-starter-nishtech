@@ -1,0 +1,40 @@
+id: aboutItem
+name: About Item
+icon: >-
+  https://res.cloudinary.com/uniformdev/image/upload/v1675162768/vNext%20Demos/Baseline/canvas-preview/About_Item_zrdbdj.png
+parameters:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig:
+      required: true
+  - id: content
+    name: Content
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: true
+  - id: direction
+    name: Direction
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Left
+          value: Left
+        - text: Right
+          value: Right
+      required: true
+  - id: image
+    name: Image
+    type: text
+    helpText: ''
+    typeConfig:
+      required: true
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2023-01-19T09:44:11.372624+00:00'
+updated: '2023-01-31T12:03:59.523717+00:00'

@@ -1,0 +1,33 @@
+{
+  "name": "demos-v-next",
+  "version": "1.0.64",
+  "license": "Unlicense",
+  "private": true,
+  "engines": {
+    "npm": ">=8.19.0",
+    "node": ">=18.12.0",
+    "yarn": "please-use-npm",
+    "pnpm": "please-use-npm"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "start": "turbo run start",
+    "generate-readme": "node_modules/markdown-include/bin/cli.js markdown.json",
+    "workspace:check": "manypkg check",
+    "workspace:fix": "manypkg fix",
+    "postinstall": "husky install"
+  },
+  "dependencies": {
+    "@manypkg/cli": "^0.20.0",
+    "eslint-config-custom": "*",
+    "husky": "^8.0.3",
+    "markdown-include": "^0.4.3",
+    "turbo": "^1.7.3"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}

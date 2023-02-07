@@ -1,0 +1,251 @@
+composition:
+  _name: Landing Page
+  _id: 03ea7931-1423-402a-a6cf-9b2b8f9f6804
+  _slug: /landing-page
+  type: page
+  parameters:
+    pageMetaTitle:
+      type: text
+      value: Landing Page
+    pageMetaDescription:
+      type: text
+      value: Landing Page
+  slots:
+    content:
+      - _id: 5245d998-f8e3-428f-8ab3-61604cce7faf
+        type: $test
+        slots:
+          test:
+            - _id: 86a55751-c1cc-4824-a584-8d0dbcf66d23
+              type: hero
+              variant: centered
+              parameters:
+                title:
+                  type: text
+                  value: Find the perfect cup without leaving your home.
+                $tstVrnt:
+                  type: testVariant
+                  value: {}
+                buttonCopy:
+                  type: text
+                  value: Read Post
+                buttonLink:
+                  type: project_map_link
+                  value:
+                    path: /
+                    nodeId: 511adbd1-e683-4f17-bd49-52857a962db1
+                    projectMapId: 89a0d435-3096-4e77-84f1-eda9ea8bc677
+                backgroundImage:
+                  type: text
+                  value: >-
+                    https://res.cloudinary.com/uniformdev/image/upload/v1675157963/vNext%20Demos/Baseline/hero-3_h8gytd.webp
+            - _id: 7fab95b9-767e-402b-9f48-59a4ceff69b1
+              type: hero
+              variant: centered
+              parameters:
+                title:
+                  type: text
+                  value: Finally - the perfect barista coffee without leaving home.
+                $tstVrnt:
+                  type: testVariant
+                  value: {}
+                buttonCopy:
+                  type: text
+                  value: Read Post
+                buttonLink:
+                  type: project_map_link
+                  value:
+                    path: /
+                    nodeId: 511adbd1-e683-4f17-bd49-52857a962db1
+                    projectMapId: 89a0d435-3096-4e77-84f1-eda9ea8bc677
+                backgroundImage:
+                  type: text
+                  value: >-
+                    https://res.cloudinary.com/uniformdev/image/upload/v1675158034/vNext%20Demos/Baseline/hero-4_qh2jg7.webp
+        parameters:
+          test:
+            type: testSelect
+            value: landingTest
+      - _id: 1701857f-479d-47f4-a29c-957938f8abeb
+        type: callToAction
+        parameters:
+          text:
+            type: text
+            value: >-
+              Combining the greatest traditions with cutting edge technology,
+              the Smart Home Barista puts decades of coffee experience at your
+              fingertips. By learning your tastes and assessing the beans, the
+              smart barista adjusts the grind, pressure and length of each
+              espresso shot to make sure it’s perfect every time.
+          title:
+            type: text
+            value: Taste the future
+      - _id: a4b0def6-69cd-4c7b-84ef-0816741967ea
+        type: divider
+      - _id: 7a0665c3-9892-4192-af41-8e808f76dc1b
+        type: featuredCallout
+        parameters:
+          image:
+            type: text
+            value: >-
+              https://res.cloudinary.com/uniformdev/image/upload/c_limit,f_auto,q_auto,w_504/v1675156336/vNext%20Demos/Baseline/featured-callout_bgkrd7.webp
+          title:
+            type: text
+            value: Cervello di Caffè
+          buttonCopy:
+            type: text
+            value: Read Post
+          buttonLink:
+            type: project_map_link
+            value:
+              path: /
+              nodeId: 511adbd1-e683-4f17-bd49-52857a962db1
+              projectMapId: 89a0d435-3096-4e77-84f1-eda9ea8bc677
+          description:
+            type: text
+            value: >-
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+              est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+              velit, sed quia non numquam eius modi tempora incidunt ut labore
+              et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
+              veniam, quis nostrum exercitationem ullam corporis suscipit
+              laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
+              vel eum iure reprehenderit qui in ea voluptate velit esse quam
+              nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
+              voluptas nulla pariatur?
+      - _id: e1fa824f-03d4-480d-96d8-660574460808
+        type: divider
+      - _id: 3605e1b4-9e9f-4b8e-b97d-fdf8246ec00d
+        type: aboutItem
+        parameters:
+          image:
+            type: text
+            value: >-
+              https://res.cloudinary.com/uniformdev/image/upload/c_limit,f_auto,q_auto,w_504/v1675156336/vNext%20Demos/Baseline/about-item-1_uffzr4.webp
+          title:
+            type: text
+            value: >-
+              AI-optimized grinding and delivery ensures that every coffee is
+              just how you like it
+          content:
+            type: text
+            value: >-
+              Not everyone has decades of experience selecting, roasting and
+              grinding coffee - but that doesn’t mean they don’t deserve a
+              perfect espresso every time. That’s why we’ve worked with the
+              industry’s top experts to create an AI system that gives you the
+              coffee you deserve.
+          direction:
+            type: select
+            value: Left
+      - _id: 4ce8eeee-21ff-4c9d-8ef9-d97e54295c67
+        type: aboutItem
+        parameters:
+          image:
+            type: text
+            value: >-
+              https://res.cloudinary.com/uniformdev/image/upload/c_limit,f_auto,q_auto,w_504/v1675156336/vNext%20Demos/Baseline/about-item-2_ptdocq.webp
+          title:
+            type: text
+            value: Four user profiles for full taste customization
+          content:
+            type: text
+            value: >-
+              You may love your family more than anything, but that doesn’t mean
+              you love your coffee the same way. The Cervello di Caffè stores up
+              to four taste profiles, which are applied automatically when you
+              use your app or voice assistant to start the brewing process or
+              can be set manually on the machine.
+          direction:
+            type: select
+            value: Right
+      - _id: c21b4ac4-6b67-4d4a-84ad-fc0e986ece0c
+        type: divider
+      - _id: e6a668d9-1a14-47a9-b65c-6f90a1b0355f
+        type: accordion
+        slots:
+          items:
+            - _id: 34fecf5b-803d-418e-8c21-15839a0c1dc8
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  value: How smart is the Cervello di Caffè?
+                description:
+                  type: text
+                  value: >-
+                    Java chicory, black doppio and roast cream mocha turkish
+                    strong. Blue mountain doppio black, chicory, sugar medium,
+                    single shot a wings blue mountain turkish. Viennese et,
+                    cinnamon, turkish lungo qui cappuccino kopi-luwak. Black,
+                    dripper, to go medium espresso lungo in, and plunger pot
+                    latte sweet redeye. Half and half, galão, single shot wings
+                    beans bar that con panna macchiato dark foam galão.
+            - _id: 94bd2fbc-7d9c-428f-b773-c999a3756601
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  value: Do you have guides on how to use the Cervello di Caffè?
+                description:
+                  type: text
+                  value: >-
+                    Fair trade siphon crema extra, viennese qui, foam viennese
+                    siphon est so caramelization. Carajillo sit ut extra chicory
+                    aged instant crema chicory. Et, dark a cup, cortado, siphon
+                    at arabica flavour macchiato. Cream, at, acerbic redeye iced
+                    americano coffee white. To go et, steamed a café au lait,
+                    single origin aftertaste frappuccino blue mountain whipped.
+            - _id: 38c7862b-ceaa-4855-bd14-db4d9674251f
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  value: What is JavaDrip doing to protect my privacy?
+                description:
+                  type: text
+                  value: >-
+                    Barista et bar aftertaste, brewed variety filter turkish
+                    breve organic. Mug french press rich doppio barista redeye
+                    cream. Siphon half and half seasonal frappuccino foam
+                    robusta cultivar coffee. So froth, aftertaste bar, saucer
+                    sugar single shot caramelization aromatic. Espresso, saucer,
+                    breve café au lait, id cultivar pumpkin spice doppio
+                    viennese frappuccino doppio.
+            - _id: 075040c7-8d9a-44e9-8b8f-5b4089927224
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  value: What accessories do you offer for the Cervello di Caffè?
+                description:
+                  type: text
+                  value: >+
+                    Arabica Acerbic Affogato Aftertaste Aged Americano And
+                    Aroma, flavour affogato At cortado french foam cappuccino,
+                    barista froth Cappuccino origin percolator au. Ristretto Au
+                    aftertaste brewed Aromatic saucer cortado Bar, Body viennese
+                    crema origin Brewed milk sweet french, coffee extraction
+                    aroma Cappuccino sit affogato et. Rich grounds at spice fair
+                    At Affogato id macchiato caramelization, saucer sugar
+                    trifecta shop Americano Aroma est. Brewed ut As brewed
+                    steamed Au espresso macchiato turkish wings id filter, rich
+                    beans affogato redeye shop and Americano so crema.
+
+        parameters:
+          title:
+            type: text
+            value: Frequently Asked Questions
+          description:
+            type: text
+            value: >-
+              If you can't find the answer to your question please reach out to
+              support@javadrip.coffee.
+created: '2023-01-18T13:00:43.593501+00:00'
+modified: '2023-02-03T09:39:08.957264+00:00'
+pattern: false

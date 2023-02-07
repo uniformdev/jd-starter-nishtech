@@ -1,0 +1,81 @@
+composition:
+  _name: Contact Us
+  _id: 5ac24009-c55d-4708-81c8-9f5861b917a0
+  _slug: /contact-us
+  type: page
+  parameters:
+    pageMetaTitle:
+      type: text
+      value: Contact Us
+    pageMetaDescription:
+      type: text
+      value: Have a question? | Contact us
+  slots:
+    content:
+      - _id: 3e2ad1b7-d440-4076-8468-d425af1b3c38
+        type: container
+        slots:
+          content:
+            - _id: a46af474-a98c-4910-bb8b-267df0580994
+              type: sectionTwoColumns
+              slots:
+                leftContent:
+                  - _id: f5d7a413-5e8a-4f3a-9da7-7abebb256c62
+                    type: contactSidebar
+                    parameters:
+                      text:
+                        type: text
+                        value: >-
+                          See what we did there? 😀 But seriously, please let us
+                          know if you have any questions and we will get back
+                          with you shortly. Thank you.
+                      title:
+                        type: text
+                        value: Let us know how you have bean.
+                rightContent:
+                  - _id: 85920879-c0e0-4966-9412-b6e307431918
+                    type: contactForm
+                    parameters:
+                      errorSubmitText:
+                        type: text
+                        value: 'Uh oh, something went wrong. Try again later. '
+                      errorSubmitImage:
+                        type: text
+                        value: >-
+                          https://res.cloudinary.com/uniformdev/image/upload/v1675162197/vNext%20Demos/Baseline/error-submit_ihbksu.svg
+                      submitButtonText:
+                        type: text
+                        value: Submit
+                      successfulSubmitText:
+                        type: text
+                        value: Thanks, we will reach back to you shortly!
+                      successfulSubmitImage:
+                        type: text
+                        value: >-
+                          https://res.cloudinary.com/uniformdev/image/upload/v1675162197/vNext%20Demos/Baseline/success-submit_uwyxpx.svg
+              parameters:
+                mobileItemsOrder:
+                  type: select
+                  value: order-first
+                verticalAlignment:
+                  type: select
+                  value: items-start
+                leftContentColumns:
+                  type: select
+                  value: '5'
+                rightContentColumns:
+                  type: select
+                  value: '7'
+        parameters:
+          paddingTop:
+            type: select
+            value: Large
+          paddingBottom:
+            type: select
+            value: Large
+          backgroundType:
+            type: select
+            value: White
+created: '2023-01-17T12:21:12.875213+00:00'
+modified: '2023-01-31T13:11:57.786113+00:00'
+pattern: false

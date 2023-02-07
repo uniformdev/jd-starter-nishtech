@@ -1,0 +1,9 @@
+id: divider
+name: Divider
+icon: border-style-solid
+parameters: []
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2023-01-18T14:52:07.557596+00:00'
+updated: '2023-01-30T09:32:06.763527+00:00'
