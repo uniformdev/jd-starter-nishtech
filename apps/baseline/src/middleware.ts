@@ -17,6 +17,8 @@ export async function middleware(request: NextRequest) {
     Boolean(previewDataCookie) ||
     Boolean(data)
   ) {
+    console.log('SKIPPING THE MIDDLEWARE');
+
     return NextResponse.next();
   }
 
@@ -27,8 +29,12 @@ export async function middleware(request: NextRequest) {
   const params = Object.fromEntries(urlSearchParams.entries());
   // disabling middleware in preview
   if (params.is_incontext_editing_mode === 'true') {
+    console.log('SKIPPING THE MIDDLEWARE');
+
     return NextResponse.next();
   }
+
+  console.log('RUNNING THE MIDDLEWARE');
 
   const context = new Context({
     defaultConsent: true,
