@@ -10,6 +10,7 @@ export async function middleware(request: NextRequest) {
 
   // add more ignore path filters so you do not process more requests than needed
   if (
+    path === '/favicon.ico' ||
     path.startsWith('/images') ||
     path.startsWith('/_next') ||
     path.startsWith('/api/enhance') ||
@@ -17,8 +18,6 @@ export async function middleware(request: NextRequest) {
     Boolean(previewDataCookie) ||
     Boolean(data)
   ) {
-    console.log('SKIPPING THE MIDDLEWARE');
-
     return NextResponse.next();
   }
 
@@ -29,12 +28,8 @@ export async function middleware(request: NextRequest) {
   const params = Object.fromEntries(urlSearchParams.entries());
   // disabling middleware in preview
   if (params.is_incontext_editing_mode === 'true') {
-    console.log('SKIPPING THE MIDDLEWARE');
-
     return NextResponse.next();
   }
-
-  console.log('RUNNING THE MIDDLEWARE');
 
   const context = new Context({
     defaultConsent: true,
