@@ -7,10 +7,14 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     return res.status(401).json({ message: 'Secret was not provided or it does not match' });
   }
 
-  const path = (req.query.path as string) || (req.body?.slug as string | undefined);
+  let path = (req.query.path as string) || (req.body?.slug as string | undefined);
 
   if (!path || typeof path !== 'string') {
     return res.status(401).json({ message: 'Path not provided' });
+  }
+
+  if (!path.startsWith('/')) {
+    path = `/${path}`;
   }
 
   try {
