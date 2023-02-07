@@ -2,7 +2,6 @@ import React from 'react';
 import { NextPage } from 'next';
 import { UniformContext } from '@uniformdev/context-react';
 import { UniformAppProps } from '@uniformdev/context-next';
-import TrackersProvider from 'shared/src/components/TrackersProvider';
 import NavigationFooter from 'shared/src/components/NavigationFooter';
 import { createUniformContext } from '../context/createUniformContext';
 import Header from '@/components/Header';
@@ -20,7 +19,6 @@ export const App: NextPage<UniformAppProps> = ({ Component, pageProps, serverUni
     <Header />
     <Component {...pageProps} />
     <NavigationFooter />
-    <TrackersProvider />
   </UniformContext>
 );
 
