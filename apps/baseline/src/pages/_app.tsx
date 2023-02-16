@@ -15,7 +15,7 @@ import 'ui/baseline';
 const clientContext = createUniformContext();
 
 export const App: NextPage<UniformAppProps> = ({ Component, pageProps, serverUniformContext }: UniformAppProps) => (
-  <UniformContext context={serverUniformContext ?? clientContext} outputType={'edge'}>
+  <UniformContext context={serverUniformContext ?? clientContext} outputType={'standard'}>
     <Header />
     <Component {...pageProps} />
     <NavigationFooter />
