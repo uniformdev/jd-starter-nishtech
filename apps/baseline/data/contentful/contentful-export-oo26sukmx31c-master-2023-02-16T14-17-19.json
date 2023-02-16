@@ -1,0 +1,2457 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "hero",
+        "type": "ContentType",
+        "createdAt": "2023-02-16T14:38:00.749Z",
+        "updatedAt": "2023-02-16T14:38:01.040Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2023-02-16T14:38:01.040Z",
+        "firstPublishedAt": "2023-02-16T14:38:01.040Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7JfeiUGD09T1TEWHahibZh"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7JfeiUGD09T1TEWHahibZh"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7JfeiUGD09T1TEWHahibZh"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Hero",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "text",
+          "name": "text",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "backgroundImage",
+          "name": "backgroundImage",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "featuredCallout",
+        "type": "ContentType",
+        "createdAt": "2023-02-16T17:31:29.644Z",
+        "updatedAt": "2023-02-16T17:35:11.862Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-02-16T17:35:11.862Z",
+        "firstPublishedAt": "2023-02-16T17:31:29.910Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Featured Callout",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "text",
+          "name": "text",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "backgroundImage",
+          "name": "backgroundImage",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "callToAction",
+        "type": "ContentType",
+        "createdAt": "2023-02-16T18:32:02.167Z",
+        "updatedAt": "2023-02-16T18:32:02.424Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2023-02-16T18:32:02.424Z",
+        "firstPublishedAt": "2023-02-16T18:32:02.424Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Call To Action",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "text",
+          "name": "Text",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    }
+  ],
+  "tags": [
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "oo26sukmx31c",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2023-02-16T14:38:01.142Z",
+        "createdBy": {
+          "sys": {
+            "id": "7JfeiUGD09T1TEWHahibZh",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-02-16T14:38:01.528Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7JfeiUGD09T1TEWHahibZh",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "hero",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "editors": [
+        {
+          "widgetId": "default-editor",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "widgetId": "tags-editor",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "widgetId": "69mKkEFmMO9ue4lwWfto2C",
+          "widgetNamespace": "app"
+        }
+      ],
+      "sidebar": [
+        {
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "66frtrAqmWSowDJzQNDiD",
+          "widgetNamespace": "app"
+        },
+        {
+          "widgetId": "703nAvCC2nuDjQCiI5P8e2",
+          "widgetNamespace": "app"
+        }
+      ],
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "text",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "backgroundImage",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "oo26sukmx31c",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2023-02-16T17:31:30.014Z",
+        "createdBy": {
+          "sys": {
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-02-16T17:35:12.421Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "featuredCallout",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "text",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "backgroundImage",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "oo26sukmx31c",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2023-02-16T18:32:02.568Z",
+        "createdBy": {
+          "sys": {
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-02-16T18:32:03.122Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "callToAction",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "text",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "33RiJxZl0k84RcwZUK7OYZ",
+        "type": "Entry",
+        "createdAt": "2023-02-16T14:38:03.574Z",
+        "updatedAt": "2023-02-16T18:35:53.158Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2023-02-16T18:35:53.158Z",
+        "firstPublishedAt": "2023-02-16T14:38:22.161Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7JfeiUGD09T1TEWHahibZh"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "hero"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Sip $12 latte while hiking the hills of SF"
+        },
+        "backgroundImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3jvR4t3ejjDMMMsaxYlfkL"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "3UnPFrk97JXXyLHO0WiFgq",
+        "type": "Entry",
+        "createdAt": "2023-02-16T18:32:27.703Z",
+        "updatedAt": "2023-02-16T18:34:45.289Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-02-16T18:34:45.289Z",
+        "firstPublishedAt": "2023-02-16T18:34:45.289Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "hero"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Sip $12 latte while strolling the NYC streets"
+        },
+        "backgroundImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "4AaTm1KBitKOpuPPDwKApu"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "6vlV2CXqXuzVQqISM1BDGf",
+        "type": "Entry",
+        "createdAt": "2023-02-16T18:35:01.093Z",
+        "updatedAt": "2023-02-16T18:35:32.423Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2023-02-16T18:35:32.423Z",
+        "firstPublishedAt": "2023-02-16T18:35:32.423Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "hero"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Get your Colombian coffee subscription!"
+        },
+        "backgroundImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7g0cUmOYcaxkBOohABjMUz"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "1SEyYDPss9j2uVbDshCyNr",
+        "type": "Entry",
+        "createdAt": "2023-02-16T18:35:58.035Z",
+        "updatedAt": "2023-02-16T18:37:43.300Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2023-02-16T18:37:43.300Z",
+        "firstPublishedAt": "2023-02-16T18:37:43.300Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "hero"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Welcome to Uniform demo"
+        },
+        "backgroundImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "1BXFXtFpuNqk5SnUJ1T95S"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "2ZWNUmqQ1qStbyGze5JIQm",
+        "type": "Entry",
+        "createdAt": "2023-02-16T18:38:22.755Z",
+        "updatedAt": "2023-02-16T18:38:56.490Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-02-16T18:38:56.490Z",
+        "firstPublishedAt": "2023-02-16T18:38:56.490Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "featuredCallout"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Cervello di Caffè"
+        },
+        "text": {
+          "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n"
+        },
+        "backgroundImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3e44txbgy566bjIou83gij"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "6BAGLbY930zpzSO7elIAJg",
+        "type": "Entry",
+        "createdAt": "2023-02-16T18:39:11.297Z",
+        "updatedAt": "2023-02-16T18:39:24.449Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-02-16T18:39:24.449Z",
+        "firstPublishedAt": "2023-02-16T18:39:24.449Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "callToAction"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "The home of coffee obsessives"
+        },
+        "text": {
+          "en-US": "Welcome to JavaDrip. We are a boutique coffee company obsessed with the perfect cup of coffee. We believe that the perfect cup starts with the perfect bean and that those beans require the perfect brewing method. This means that we offer both high quality beans and products to meet any occasion and mood. Have a look around and let us know if you have any questions.\n"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "4EBaMfUvJn4Vk9Kc1HG7tV",
+        "type": "Entry",
+        "createdAt": "2023-02-16T18:50:43.268Z",
+        "updatedAt": "2023-02-16T18:51:12.375Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-02-16T18:51:12.375Z",
+        "firstPublishedAt": "2023-02-16T18:51:12.375Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "hero"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Finally - the perfect barista coffee without leaving home."
+        },
+        "backgroundImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "Ll93w1wmeZtswt3qcgubc"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "43SM8iq7GyW168O3t21b2t",
+        "type": "Entry",
+        "createdAt": "2023-02-16T18:52:08.777Z",
+        "updatedAt": "2023-02-16T18:53:09.634Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-02-16T18:53:09.634Z",
+        "firstPublishedAt": "2023-02-16T18:53:09.634Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "featuredCallout"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "AI-optimized grinding and delivery ensures that every coffee is just how you like it"
+        },
+        "text": {
+          "en-US": "Not everyone has decades of experience selecting, roasting and grinding coffee - but that doesn’t mean they don’t deserve a perfect espresso every time. That’s why we’ve worked with the industry’s top experts to create an AI system that gives you the coffee you deserve.\n"
+        },
+        "backgroundImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "yqp9NUIUUxls7FI5AsgjF"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "12bVDmFHujTRjA5eTyQcoD",
+        "type": "Entry",
+        "createdAt": "2023-02-16T18:55:38.429Z",
+        "updatedAt": "2023-02-16T18:56:28.193Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2023-02-16T18:56:28.193Z",
+        "firstPublishedAt": "2023-02-16T18:56:28.193Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "featuredCallout"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Four user profiles for full taste customization"
+        },
+        "text": {
+          "en-US": "You may love your family more than anything, but that doesn’t mean you love your coffee the same way. The Cervello di Caffè stores up to four taste profiles, which are applied automatically when you use your app or voice assistant to start the brewing process or can be set manually on the machine.\n"
+        },
+        "backgroundImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "2FnKxo00fLvxQ5nFBdWAGB"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "2Lgq1m26nuCZoDAsM8GcBI",
+        "type": "Entry",
+        "createdAt": "2023-02-16T18:56:52.027Z",
+        "updatedAt": "2023-02-16T18:57:11.423Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-02-16T18:57:11.423Z",
+        "firstPublishedAt": "2023-02-16T18:57:11.423Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "callToAction"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Taste the future"
+        },
+        "text": {
+          "en-US": "Combining the greatest traditions with cutting edge technology, the Smart Home Barista puts decades of coffee experience at your fingertips. By learning your tastes and assessing the beans, the smart barista adjusts the grind, pressure and length of each espresso shot to make sure it’s perfect every time.\n"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "UyFoZZqDGJuuxwf4ZRMs6",
+        "type": "Entry",
+        "createdAt": "2023-02-16T18:59:26.709Z",
+        "updatedAt": "2023-02-16T19:00:10.879Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2023-02-16T19:00:10.879Z",
+        "firstPublishedAt": "2023-02-16T19:00:10.879Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "hero"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Find the perfect cup without leaving your home. "
+        },
+        "backgroundImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7lnscDNWrVKat6jSUjwji2"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "7oUvIph9tJEmH2YlyLpSN8",
+        "type": "Asset",
+        "createdAt": "2023-02-16T14:38:14.267Z",
+        "updatedAt": "2023-02-16T14:38:53.908Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2023-02-16T14:38:53.908Z",
+        "firstPublishedAt": "2023-02-16T14:38:53.908Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7JfeiUGD09T1TEWHahibZh"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7JfeiUGD09T1TEWHahibZh"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7JfeiUGD09T1TEWHahibZh"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Latte Image"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/oo26sukmx31c/7oUvIph9tJEmH2YlyLpSN8/796412ed1f13746a7c23a21958299fc2/Soymilk_caffe_latte_art2_flickr_user_avlxyz.jpg",
+            "details": {
+              "size": 220515,
+              "image": {
+                "width": 2048,
+                "height": 1371
+              }
+            },
+            "fileName": "Soymilk_caffe_latte_art2_flickr_user_avlxyz.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "3jvR4t3ejjDMMMsaxYlfkL",
+        "type": "Asset",
+        "createdAt": "2023-02-16T18:32:56.264Z",
+        "updatedAt": "2023-02-16T18:33:38.224Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-02-16T18:33:38.224Z",
+        "firstPublishedAt": "2023-02-16T18:33:38.224Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "jonathan-gonzalez-TCAN7nOgQ30-unsplash"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/oo26sukmx31c/3jvR4t3ejjDMMMsaxYlfkL/803d3ab33868a9aea00f4c9e4aef61ae/jonathan-gonzalez-TCAN7nOgQ30-unsplash.jpg",
+            "details": {
+              "size": 119936,
+              "image": {
+                "width": 1536,
+                "height": 1024
+              }
+            },
+            "fileName": "jonathan-gonzalez-TCAN7nOgQ30-unsplash.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "4AaTm1KBitKOpuPPDwKApu",
+        "type": "Asset",
+        "createdAt": "2023-02-16T18:34:01.469Z",
+        "updatedAt": "2023-02-16T18:34:41.477Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2023-02-16T18:34:41.477Z",
+        "firstPublishedAt": "2023-02-16T18:34:41.477Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "NYC"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/oo26sukmx31c/4AaTm1KBitKOpuPPDwKApu/c6224aeac8c954a576cb259f0938f463/patrick-tomasso-k0okLYIjoxo-unsplash.jpg",
+            "details": {
+              "size": 256757,
+              "image": {
+                "width": 1536,
+                "height": 1152
+              }
+            },
+            "fileName": "patrick-tomasso-k0okLYIjoxo-unsplash.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "7g0cUmOYcaxkBOohABjMUz",
+        "type": "Asset",
+        "createdAt": "2023-02-16T18:35:07.423Z",
+        "updatedAt": "2023-02-16T18:35:24.940Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-02-16T18:35:24.940Z",
+        "firstPublishedAt": "2023-02-16T18:35:24.940Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "hero-2 gjqbfo"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/oo26sukmx31c/7g0cUmOYcaxkBOohABjMUz/f2eb3e091934ed75c83335ec690273fa/hero-2_gjqbfo.jpg",
+            "details": {
+              "size": 88872,
+              "image": {
+                "width": 1536,
+                "height": 768
+              }
+            },
+            "fileName": "hero-2_gjqbfo.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "1BXFXtFpuNqk5SnUJ1T95S",
+        "type": "Asset",
+        "createdAt": "2023-02-16T18:36:05.395Z",
+        "updatedAt": "2023-02-16T18:36:21.552Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-02-16T18:36:21.552Z",
+        "firstPublishedAt": "2023-02-16T18:36:21.552Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "hero-1 vks69p"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/oo26sukmx31c/1BXFXtFpuNqk5SnUJ1T95S/7c22ab55ef0fc3790658300a760e4ebf/hero-1_vks69p.jpg",
+            "details": {
+              "size": 49129,
+              "image": {
+                "width": 1536,
+                "height": 768
+              }
+            },
+            "fileName": "hero-1_vks69p.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "3e44txbgy566bjIou83gij",
+        "type": "Asset",
+        "createdAt": "2023-02-16T18:38:39.477Z",
+        "updatedAt": "2023-02-16T18:38:50.152Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-02-16T18:38:50.152Z",
+        "firstPublishedAt": "2023-02-16T18:38:50.152Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "featured-callout bgkrd7"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/oo26sukmx31c/3e44txbgy566bjIou83gij/f660886722c37b570c843e7ea3c842ad/featured-callout_bgkrd7.jpg",
+            "details": {
+              "size": 37386,
+              "image": {
+                "width": 1024,
+                "height": 1024
+              }
+            },
+            "fileName": "featured-callout_bgkrd7.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "Ll93w1wmeZtswt3qcgubc",
+        "type": "Asset",
+        "createdAt": "2023-02-16T18:50:51.494Z",
+        "updatedAt": "2023-02-16T18:51:00.389Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-02-16T18:51:00.389Z",
+        "firstPublishedAt": "2023-02-16T18:51:00.389Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "hero-4 qh2jg7"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/oo26sukmx31c/Ll93w1wmeZtswt3qcgubc/17bef05d8b3968dc51f0a7dc3012bf05/hero-4_qh2jg7.jpg",
+            "details": {
+              "size": 88660,
+              "image": {
+                "width": 1536,
+                "height": 768
+              }
+            },
+            "fileName": "hero-4_qh2jg7.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "yqp9NUIUUxls7FI5AsgjF",
+        "type": "Asset",
+        "createdAt": "2023-02-16T18:52:31.682Z",
+        "updatedAt": "2023-02-16T18:52:58.970Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-02-16T18:52:58.970Z",
+        "firstPublishedAt": "2023-02-16T18:52:58.970Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "about-item-1 uffzr4"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/oo26sukmx31c/yqp9NUIUUxls7FI5AsgjF/9bf7660944255c9613c06a50586d8980/about-item-1_uffzr4.jpg",
+            "details": {
+              "size": 55485,
+              "image": {
+                "width": 1024,
+                "height": 730
+              }
+            },
+            "fileName": "about-item-1_uffzr4.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "2FnKxo00fLvxQ5nFBdWAGB",
+        "type": "Asset",
+        "createdAt": "2023-02-16T18:55:58.089Z",
+        "updatedAt": "2023-02-16T18:56:24.029Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-02-16T18:56:24.029Z",
+        "firstPublishedAt": "2023-02-16T18:56:24.029Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "about-item-2 ptdocq"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/oo26sukmx31c/2FnKxo00fLvxQ5nFBdWAGB/8125e743fd5e407abdfb6c66fd391a68/about-item-2_ptdocq.jpg",
+            "details": {
+              "size": 45835,
+              "image": {
+                "width": 1024,
+                "height": 730
+              }
+            },
+            "fileName": "about-item-2_ptdocq.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "id": "7lnscDNWrVKat6jSUjwji2",
+        "type": "Asset",
+        "createdAt": "2023-02-16T18:59:47.675Z",
+        "updatedAt": "2023-02-16T19:00:06.525Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-02-16T19:00:06.525Z",
+        "firstPublishedAt": "2023-02-16T19:00:06.525Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "hero-3 h8gytd"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/oo26sukmx31c/7lnscDNWrVKat6jSUjwji2/fc9c674cc17d84b3a43a328ed7a2e418/hero-3_h8gytd.jpg",
+            "details": {
+              "size": 86316,
+              "image": {
+                "width": 1536,
+                "height": 768
+              }
+            },
+            "fileName": "hero-3_h8gytd.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "00xLXE0CuXlEDnosNzJ4aj",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "ba26ba42-ac26-4c0b-9ffb-4b5aeed1dc8a"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7JfeiUGD09T1TEWHahibZh"
+          }
+        },
+        "createdAt": "2023-02-16T14:34:53Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7JfeiUGD09T1TEWHahibZh"
+          }
+        },
+        "updatedAt": "2023-02-16T14:34:53Z"
+      }
+    }
+  ],
+  "webhooks": [
+  ],
+  "roles": [
+    {
+      "name": "Author",
+      "description": "Allows editing of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": [
+            "create"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "create"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "00Un5RZ0LBYMnR0yimWnNJ",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7JfeiUGD09T1TEWHahibZh"
+          }
+        },
+        "createdAt": "2023-02-16T14:34:54Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7JfeiUGD09T1TEWHahibZh"
+          }
+        },
+        "updatedAt": "2023-02-16T14:34:54Z"
+      }
+    },
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "00VZmZdVmp78ZCaeaa5XDx",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7JfeiUGD09T1TEWHahibZh"
+          }
+        },
+        "createdAt": "2023-02-16T14:34:54Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7JfeiUGD09T1TEWHahibZh"
+          }
+        },
+        "updatedAt": "2023-02-16T14:34:54Z"
+      }
+    },
+    {
+      "name": "Translator",
+      "description": "Allows editing of localized fields in the specified language",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              },
+              {
+                "paths": [
+                  {
+                    "doc": "fields.%.%"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              },
+              {
+                "paths": [
+                  {
+                    "doc": "fields.%.%"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "00Xxmc7P6I1pFOG5zdOqjl",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oo26sukmx31c"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7JfeiUGD09T1TEWHahibZh"
+          }
+        },
+        "createdAt": "2023-02-16T14:34:54Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7JfeiUGD09T1TEWHahibZh"
+          }
+        },
+        "updatedAt": "2023-02-16T14:34:54Z"
+      }
+    }
+  ]
+}
